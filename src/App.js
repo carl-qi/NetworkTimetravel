@@ -58,7 +58,7 @@ function clean_service (suite) {
             prev_event = event;
         }
     }
-    let curr_time = new Date()
+    let curr_time = new Date((prev_event.timestamp + 30) * 1000)
     let new_event = new TimeRangeEvent(new TimeRange(new Date(1000 * prev_event.timestamp), curr_time), {status:prev_event.conclusion, interfaces:prev_event.conclusion, startTime:prev_event.timestamp, endTime: curr_time});
     events.push(new_event);
     return new TimeSeries({ name: "services", events: events });
