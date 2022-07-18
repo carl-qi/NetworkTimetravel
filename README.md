@@ -3,7 +3,7 @@
 
 Cisco EnHacks 2nd Place Winner -- Network Healer.
 
-This is a submodule in the project that helps analyze, adjust, and predicgt the network according to user intent for proactive actions & uninterrupted operations.
+This is a submodule in the project that helps analyze, adjust, and predict the network according to user intent for proactive actions & uninterrupted operations.
 
 ### Project Description
 
